@@ -25,7 +25,7 @@
 
 html {
     position: relative;
-    background-image: url(/assets/images/img/background.png);
+    background-image: url(images/img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: url('images/img/cursor.png'), auto;
@@ -158,6 +158,15 @@ main {
   
 
   @media screen and (max-width: 768px) {
+
+    * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+       }
+       
     .buttons {
         margin-left: 20%;
         padding-top: 40px;
@@ -168,7 +177,7 @@ main {
     }
     .logo {
         width: 40vw;
-        animation: none;
+        animation: float 1s ease-in-out;
         transform: none;
     }
     .active {
@@ -186,6 +195,15 @@ main {
 
 
 @media screen and (max-width: 480px) {
+
+    * {
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+       }
+
     footer {
         margin-bottom: 40px;
     }
@@ -198,12 +216,16 @@ main {
     }
     .logo {
         width: 50vw;
-        animation: none;
+        animation: float 1s ease-in-out;
         transform: none;
     }
     .active {
         margin-top: 20px;
         width: 75%;
+    }
+
+    canvas {
+        display:none;
     }
 
     #space {
