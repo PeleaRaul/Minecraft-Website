@@ -168,6 +168,7 @@ main {
     }
     .logo {
         width: 40vw;
+        animation: none;
     }
     .active {
         margin-top: 20px;
@@ -192,6 +193,7 @@ main {
     }
     .logo {
         width: 50vw;
+        animation: none;
     }
     .active {
         margin-top: 20px;
