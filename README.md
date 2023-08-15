@@ -1,4 +1,4 @@
-# Minecraft Server Website Template ($20.00) - Made By. AppoDev
+# Minecraft Server Website Template ($5.00) - Made By. AppoDev
 
 This is a solution website for Minecraft Servers [Minecraft Server Template ($20.00)](https://github.com/pelearaul). 
 
