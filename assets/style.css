@@ -178,6 +178,10 @@ main {
     footer {
         margin-bottom: 40px;
     }
+
+    #space {
+        display:none;
+    }
 }
 
 
@@ -200,6 +204,10 @@ main {
     .active {
         margin-top: 20px;
         width: 75%;
+    }
+
+    #space {
+        display:none;
     }
 }
 /*
