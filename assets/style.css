@@ -158,15 +158,6 @@ main {
   
 
   @media screen and (max-width: 768px) {
-
-    * {
-        -webkit-transition: none !important;
-        -moz-transition: none !important;
-        -o-transition: none !important;
-        -ms-transition: none !important;
-        transition: none !important;
-       }
-       
     .buttons {
         margin-left: 20%;
         padding-top: 40px;
@@ -195,15 +186,6 @@ main {
 
 
 @media screen and (max-width: 480px) {
-
-    * {
-        -webkit-transition: none !important;
-        -moz-transition: none !important;
-        -o-transition: none !important;
-        -ms-transition: none !important;
-        transition: none !important;
-       }
-
     footer {
         margin-bottom: 40px;
     }
@@ -216,7 +198,7 @@ main {
     }
     .logo {
         width: 50vw;
-        animation: float 1s ease-in-out;
+        animation: none;
         transform: none;
     }
     .active {
