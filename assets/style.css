@@ -28,7 +28,7 @@ html {
     background-image: url(/assets/images/img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    cursor: url('/assets/images/img/cursor.png'), auto;
+    cursor: url('images/img/cursor.png'), auto;
     z-index: 1;
     overflow-x: hidden;
 }
@@ -52,7 +52,7 @@ footer {
     height: 50px;
     font-family: minecraft-regular;
     color: var(--neutral-dark);
-    cursor: url('/assets/images/img/cursor.png'), auto;
+    cursor: url('images/img/cursor.png'), auto;
     z-index: 2;
 }
 
@@ -60,13 +60,13 @@ a {
     text-decoration: none;
     font-family: minecraft-bold;
     color:var(--neutral-dark);
-    cursor: url('/assets/images/img/cursor-active.png'), auto;
+    cursor: url('images/img/cursor-active.png'), auto;
     z-index: 2;
 }
 
 a:hover {
     color: var(--main-darker-color);
-    cursor: url('/assets/images/img/cursor-active.png'), auto;
+    cursor: url('images/img/cursor-active.png'), auto;
 }
 
 main {
@@ -134,7 +134,7 @@ main {
 #dns:hover {
     color: rgb(204, 16, 204);
     font-size: 21px;
-    cursor: url('/assets/images/img/cursor-active.png'), auto;
+    cursor: url('images/img/cursor-active.png'), auto;
 }
 
 #space {
