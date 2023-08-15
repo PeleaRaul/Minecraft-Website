@@ -1,0 +1,222 @@
+:root {
+    --main-color: #a2d6f9;
+    --main-darker-color: #1E96FC;
+    --neutral-dark: #072AC8;
+    --secondary-color: #ff5e0096;
+    --secondary-darker-color: #ffc8007c;
+}
+
+* {
+     -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+@font-face {
+    font-family: 'minecraft-regular';
+    src: url('fonts/MinecraftRegular-Bmg3.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'minecraft-bold';
+    src: url('fonts/MinecraftBold-nMK1.otf') format("opentype");
+}
+
+
+html {
+    position: relative;
+    background-image: url(/assets/images/img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: url('/assets/images/img/cursor.png'), auto;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+body {
+    display: block;
+    min-height: 97vh;
+    width: 99%;
+    z-index: 3;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5%;
+    display: grid;
+    place-content: center;
+    background-color: var(--secondary-darker-color);
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    font-family: minecraft-regular;
+    color: var(--neutral-dark);
+    cursor: url('/assets/images/img/cursor.png'), auto;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    font-family: minecraft-bold;
+    color:var(--neutral-dark);
+    cursor: url('/assets/images/img/cursor-active.png'), auto;
+    z-index: 2;
+}
+
+a:hover {
+    color: var(--main-darker-color);
+    cursor: url('/assets/images/img/cursor-active.png'), auto;
+}
+
+main {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0%;
+}
+
+.buttons {
+    margin-left: 9%;
+    padding-top: 50px;
+}
+.btn {
+    margin-left: 10%;
+    width: 10%;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1); 
+}
+
+.logo {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.active {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: var(--secondary-color);
+    width: 20%;
+    height: 50px;
+}
+
+.minecraft {
+    margin: auto;
+    font-family: minecraft-regular;
+    font-size: 20px;
+    color: var(--neutral-dark)
+}
+
+.copydns {
+    margin: 0 auto;
+    font-family: minecraft-bold;
+    font-size: 20px;
+    margin-top: -10px;
+    color: rgb(55, 57, 189);
+}
+
+#dns {
+    color: rgb(189, 55, 55);
+    z-index: 10;
+}
+
+#dns:hover {
+    color: rgb(204, 16, 204);
+    font-size: 21px;
+    cursor: url('/assets/images/img/cursor-active.png'), auto;
+}
+
+#space {
+    position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -9999;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .buttons {
+        margin-left: 20%;
+        padding-top: 40px;
+        width: 70%;
+    }
+    .btn {
+        width: 20vw;
+    }
+    .logo {
+        width: 40vw;
+    }
+    .active {
+        margin-top: 20px;
+        width: 85%;
+    }
+    footer {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    footer {
+        margin-bottom: 40px;
+    }
+    .buttons {
+        margin-left: 5%;
+        width: 100%;
+    }
+    .btn {
+        width: 30vw;
+    }
+    .logo {
+        width: 50vw;
+    }
+    .active {
+        margin-top: 20px;
+        width: 75%;
+    }
+}
+/*
+© 2023 AppoDev's Minecraft Server Template. All rights reserved.
+
+Statement/Declaration of Rights
+
+Subject to the provisions of this notice, this website and all its content, information,
+or material is the copyright of AppoDev's Minecraft Server Template, together with its licensors. Accordingly,
+your use of our website or its services does not constitute any license to use the copyright in our website.
+
+Except to the extent permitted by the applicable copyright law or AppoDev's Minecraft Server Template, 
+any form of use, reproduction, or redistribution of part of all of the content, information, or material
+on this website in any form is hereby prohibited without license or permission.
+
+You may not, except otherwise with prior permission and express written consent by the AppoDev's Minecraft Server Template, 
+copy, download, print, extract, exploit, adapt, edit, modify, republish, reproduce, rebroadcast, duplicate, distribute, 
+or publicly display any of the content, information, or material on this website for non-personal or commercial purposes, 
+except for any other use as permitted by the applicable copyright law.
+
+You may also not transmit, host, or store any such content, information, or material in any form or through any means, 
+including but not limited to photocopying, recording, or in any print, electronic or digital form, or on any other website.
+
+However, you are permitted to copy the content, information, or material on this website for personal use, 
+educational use of individual third parties, government use, or any other use permitted under the applicable 
+copyright law while acknowledging this author AppoDev's Minecraft Server Template as the source of any such content, information, or material.
+
+Subject to our terms & conditions, you are not permitted to post information or add content copyrighted by third parties. 
+Pursuant to the Digital Millennium Copyright Act (DMCA), AppoDev's Minecraft Server Template will respond to takedown notices 
+or abuse reports by copyright owners to remove any abusive or infringing content on this website.
+
+AppoDev's Minecraft Server Template will not be responsible for the quality, accuracy, completeness,
+or appropriateness of the content, information, or material on this website.
+
+Removing any copyright claim or "this data" from the code, you may face applicable copyright laws!
+*/
+
