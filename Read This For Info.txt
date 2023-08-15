@@ -1,0 +1,8 @@
+1. To modify the logo: just replace the logo inside assets/images/img/logo.png!
+2. To modify the ip:port for the "Players Connected". Enter index.html and modify from mc.hypixel.net to your ip/dns!
+3. To modify any colors: Just replace from style.css on section :root { the colors in hex or any other format}!
+4. To modify the "mc.yourserver.net" in bottom footer! Just enter index.html and change at the footer from mc.yourserver.net to yourserver.dns!
+ 4a. Heads Up! Do not try to remove "Made by AppoDev &copy 2020-<span..." doing anything of the sort will temper with the license provided when
+     buying the website. You can get in legal dispute with AppoDev @ Pelea Raul-Daniel in his local area and GDPD will bring down your site!
+     4b. Before modifying make sure to read permission.txt & terms.docx & README.md & order.docx & manifest.json!
+        5c. The website is protected with Commercial License!

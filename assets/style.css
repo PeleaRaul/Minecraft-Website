@@ -3,13 +3,13 @@
     --main-darker-color: #1E96FC;
     --neutral-dark: #072AC8;
     --secondary-color: #ff5e0096;
-    --secondary-darker-color: #ffc8007c;
+    --secondary-darker-color: #ffd90086;
 }
 
 * {
-     -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+    -webkit-user-select: none; 
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 @font-face {
@@ -94,8 +94,11 @@ main {
 }
 
 .logo {
+    background-color: rgba(0, 0, 0, 0);
     width: 20%;
     margin: 0 auto;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
 }
 
 .active {
@@ -140,10 +143,21 @@ main {
       left: 0;
       z-index: -9999;
   }
+
+  @keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
   
 
   @media screen and (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
     .buttons {
         margin-left: 20%;
         padding-top: 40px;
@@ -166,7 +180,6 @@ main {
 
 
 @media screen and (max-width: 480px) {
-    /* Styles for screens up to 480px wide */
     footer {
         margin-bottom: 40px;
     }
