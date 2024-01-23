@@ -42,7 +42,9 @@ This is a solution website for Minecraft Servers [Minecraft Server Template ($20
 ### Terms and conditions
 
 ## copyright
-
+------------------------------------------------------
+This copyright as of 01/23/2024 is no longer valid!
+------------------------------------------------------
 © 2023 AppoDev's Minecraft Server Template. All rights reserved.
 
 Statement/Declaration of Rights
